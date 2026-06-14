@@ -1,0 +1,6 @@
+Flask
+pdfplumber
+reportlab
+flask-bcrypt
+matplotlib
+gunicorn

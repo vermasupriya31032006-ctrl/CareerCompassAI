@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:linear-gradient(
+        135deg,
+        #1a002b,
+        #3d0066,
+        #6a0dad
+    );
+    min-height:100vh;
+    padding:30px;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+h1{
+    text-align:center;
+    color:#ffffff;
+    font-size:3.2rem;
+    margin-bottom:10px;
+    text-shadow:0 0 15px rgba(255,255,255,0.4);
+}
+
+.subtitle{
+    text-align:center;
+    color:#f3d9ff;
+    margin-bottom:35px;
+    font-size:1.1rem;
+}
+
+.card{
+    background:rgba(255,255,255,0.12);
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(255,255,255,0.15);
+    border-radius:20px;
+    padding:25px;
+    margin-bottom:25px;
+    color:white;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 25px rgba(255,105,180,0.4);
+}
+
+h2{
+    color:#ffd6ff;
+    margin-bottom:15px;
+}
+
+h3{
+    color:#ffb3ff;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+
+ul,ol{
+    margin-left:25px;
+}
+
+li{
+    margin-bottom:8px;
+}
+
+input[type="file"]{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    background:white;
+    margin-bottom:15px;
+}
+
+button{
+    width:100%;
+    border:none;
+    border-radius:12px;
+    padding:14px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    color:white;
+    background:linear-gradient(
+        90deg,
+        #ff0080,
+        #7928ca
+    );
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.03);
+}
+
+p{
+    color:#f5eaff;
+}
+.download-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 18px;
+
+    background: #000000;      /* black button */
+    color: #ffffff;           /* white text */
+
+    border: 2px solid #ff0080; /* neon pink border */
+    border-radius: 12px;
+
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 0, 128, 0.5);
+}
+.logout-btn{
+    display:inline-block;
+    padding:10px 20px;
+    background:#ff4d4d;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    margin-bottom:15px;
+}
+
+.logout-btn:hover{
+    opacity:0.9;
+}
